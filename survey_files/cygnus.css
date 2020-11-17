@@ -2990,7 +2990,7 @@ html.touchevents .tile-item .manage-tile-button {
     border-radius: 6px;
     transition: .2s; }
   .tile-item.webclip {
-    background-image: url("../web.svg"); }
+    background-image: url("../img/brands/white-lines/webpage-8a9569e6fc93f7f00b52b9c06666b04f.svg"); }
   .tile-item.video {
     background-image: url("../img/brands/white-lines/video-6f20bdc8bf8b96bd9eff3e4dc2376259.svg"); }
   .tile-item.sound {
@@ -3002,7 +3002,7 @@ html.touchevents .tile-item .manage-tile-button {
   .tile-item.image {
     background-image: url("../img/brands/white-lines/image-15d0db407902849b07f7186fd05616bf.svg"); }
   .tile-item.quiz {
-    background-image: url("../quiz.svg"); }
+    background-image: url("../img/brands/white-lines/quiz-0c2d83aa6ab7083082e4ae32aafaee19.svg"); }
   .tile-item.livetraining {
     background-image: url("../img/brands/white-lines/event-a781b6bb23688349bb018ac2affb1752.svg"); }
   .tile-item.scormclip {
