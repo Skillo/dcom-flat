@@ -420,11 +420,11 @@ p.question {
     #quiz-wrapper #multiple-answer input[type="radio"] + span::before, #quiz-wrapper #multiple-answer input[type="checkbox"] + span::before {
       margin-right: 6px; }
   #quiz-wrapper #multiple-answer input[type="radio"] + span::before {
-    content: url("../img/radio-7a0ec800f25ba0bdaa3e86eae2b9fb51.svg"); }
+    content: url("../radio.svg"); }
   #quiz-wrapper #multiple-answer input[type="checkbox"] + span::before {
     content: url("../img/checkbox-8af316f64bf6cf299d1c1667109c1327.svg"); }
   #quiz-wrapper #multiple-answer input[type="radio"]:checked + span::before {
-    content: url("../img/radio-selected-60610a523f826f15e6b7c07f712d97c5.svg");
+    content: url("../radio-selected.svg");
     color: black; }
   #quiz-wrapper #multiple-answer input[type="checkbox"]:checked + span::before {
     content: url("../img/checkbox-checked-8642a6a3689bf9253be6021bb440ac23.svg");
@@ -2161,30 +2161,30 @@ nav#app-navigation {
   display: inline-block;
   font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif;
   margin-bottom: 25px;
-  background-image: url("../img/uparrowlight-aa9f7d8a4e80673ca8af717e818bb3b6.svg");
+  background-image: url("../img/uparrowlight.svg");
   background-repeat: no-repeat;
   background-size: 30px;
   padding: 10px;
   padding: 10px 20px 10px 48px;
   background-position: 9px center; }
   #back-button:hover {
-    background-image: url("../img/uparrowdark-0c294cd7f1f8999579de7acf0698ea67.svg"); }
+    background-image: url("../img/uparrowdark.svg"); }
 
 #next-item {
   font-size: 1em;
   background-size: 20px;
   background-position: right 9px center;
-  background-image: url("../img/rightarrowdark-33d6682530f60b564e795e807a072bbf.svg");
+  background-image: url("../img/rightarrowdark.svg");
   background-repeat: no-repeat;
   font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif;
   padding-right: 38px; }
   #next-item:hover {
-    background-image: url("../img/rightarrowlight-3bf24debceeaa8f319c7310d9d1ccaeb.svg"); }
+    background-image: url("../img/rightarrowlight.svg"); }
 
 .observing-course header #back-button {
-  background-image: url("../img/uparrowdark-0c294cd7f1f8999579de7acf0698ea67.svg"); }
+  background-image: url("../img/uparrowdark.svg"); }
   .observing-course header #back-button:hover {
-    background-image: url("../img/uparrowlight-aa9f7d8a4e80673ca8af717e818bb3b6.svg"); }
+    background-image: url("../img/uparrowlight.svg"); }
 
 .learning-course #back-button {
   color: white;
@@ -2196,11 +2196,11 @@ nav#app-navigation {
 .learning-course #next-item {
   color: white;
   border-color: white;
-  background-image: url("../img/rightarrowlight-3bf24debceeaa8f319c7310d9d1ccaeb.svg"); }
+  background-image: url("../img/rightarrowlight.svg"); }
   .learning-course #next-item:hover {
     background-color: white;
     color: #46568E;
-    background-image: url("../img/rightarrowdark-33d6682530f60b564e795e807a072bbf.svg"); }
+    background-image: url("../img/rightarrowdark.svg"); }
 
 .learning-course #nav-toggle {
   color: white; }
@@ -2258,7 +2258,7 @@ nav#app-navigation {
         background: #46568E; }
 
 #sidebar-logo {
-  background-image: url("../img/logos/cygnus-9f33ec97d85728975dc17f4d794e1f22.svg");
+  background-image: url("../cygnus.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 165px;
