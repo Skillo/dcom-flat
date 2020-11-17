@@ -2258,7 +2258,7 @@ nav#app-navigation {
         background: #46568E; }
 
 #sidebar-logo {
-  background-image: url("../img/logos/cygnus-9f33ec97d85728975dc17f4d794e1f22.svg");
+  background-image: url("../cygnus.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 165px;
