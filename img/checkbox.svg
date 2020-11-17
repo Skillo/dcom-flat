@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="33px" viewBox="0 0 34 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="33.5699482" height="33" rx="2"></rect>
+    </defs>
+    <g id="Quiz-Questions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-12" transform="translate(-685.000000, -1217.000000)">
+            <g id="Group-5" transform="translate(635.000000, 1021.000000)">
+                <g id="Group-9-Copy" transform="translate(50.000000, 196.000000)">
+                    <g id="Group-2">
+                        <g id="Group">
+                            <g id="Rectangle-17">
+                                <use fill-opacity="0.186848958" fill="#9B9B9B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="32.5699482" height="32" rx="2"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

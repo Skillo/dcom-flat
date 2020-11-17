@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 64 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-7096,-3794.14)">
+        <g transform="matrix(0.87226,0,0,0.87747,4022.21,3286.22)">
+            <g transform="matrix(1,0,0,1,0,32.7619)">
+                <g transform="matrix(2.0637,0,0,1.18246,-9711.95,-2666.3)">
+                    <path d="M6448.54,2726.05C6448.54,2721.14 6446.24,2717.15 6443.41,2717.15L6419.07,2717.15C6416.24,2717.15 6413.94,2721.14 6413.94,2726.05L6413.94,2726.08C6413.94,2730.99 6416.24,2734.97 6419.07,2734.97L6443.41,2734.97C6446.24,2734.97 6448.54,2730.99 6448.54,2726.08L6448.54,2726.05Z" style="fill:rgb(102,102,102);stroke:black;stroke-width:0.65px;"/>
+                </g>
+                <g transform="matrix(1.14645,0,0,1.13964,-3828.58,-2548.27)">
+                    <text x="6423.73px" y="2727.72px" style="font-family:'AvenirNext-Regular', 'Avenir Next', sans-serif;font-size:10px;fill:white;">Optional</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
