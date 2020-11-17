@@ -420,11 +420,11 @@ p.question {
     #quiz-wrapper #multiple-answer input[type="radio"] + span::before, #quiz-wrapper #multiple-answer input[type="checkbox"] + span::before {
       margin-right: 6px; }
   #quiz-wrapper #multiple-answer input[type="radio"] + span::before {
-    content: url("../img/radio-7a0ec800f25ba0bdaa3e86eae2b9fb51.svg"); }
+    content: url("../radio.svg"); }
   #quiz-wrapper #multiple-answer input[type="checkbox"] + span::before {
     content: url("../img/checkbox-8af316f64bf6cf299d1c1667109c1327.svg"); }
   #quiz-wrapper #multiple-answer input[type="radio"]:checked + span::before {
-    content: url("../img/radio-selected-60610a523f826f15e6b7c07f712d97c5.svg");
+    content: url("../radio-selected.svg");
     color: black; }
   #quiz-wrapper #multiple-answer input[type="checkbox"]:checked + span::before {
     content: url("../img/checkbox-checked-8642a6a3689bf9253be6021bb440ac23.svg");
