@@ -1,4 +1,4 @@
-function QuizPlayer(){
+function QuizPlayer(questions){
 	/* global
 	JST,
 	$,
@@ -20,77 +20,7 @@ function QuizPlayer(){
 	var currentAttemptNumber;
 
 	var tile = {"id":1,"type":"Quiz","topic_id":1,"title":"Phishing Quiz","textblock":null,"position":3,"thumbnail":null,"prerequisite_id":null,"message":null,"min_score":100,"require_pass":true,"no_download":true,"no_print":true,"no_discussion":true,"no_reporting":false,"attempt_limit":2,"instant_feedback":true,"summary_feedback":true,"hidden":false,"url":null,"status":null,"review_mode":null,"shuffle_answers":true,"shuffle_questions":null,"assignment_response":null,"max_score":null,"pass_fail":null,"days_til_available":null,"use_google":null,"status_message":null,"scorm_score_can_only_improve":false,"get_filepicker_security_policy":{"signature":"23d771ede029d7e9cbe612096a626e27dc4649c3fd858e56277e8150b97dde05","policy":"eyJjYWxsIjpbInN0b3JlIiwicGljayJdLCJoYW5kbGUiOm51bGwsImV4cGlyeSI6MTYwNjQ4OTMxNn0="},"prerequisite":{"id":709919,"type":"Webclip","topic_id":560616,"title":"Stay Safe from Phishing and Scams","textblock":null,"position":1,"thumbnail":null,"prerequisite_id":null,"message":null,"min_score":null,"require_pass":true,"no_download":true,"no_print":true,"no_discussion":false,"no_reporting":false,"attempt_limit":null,"instant_feedback":true,"summary_feedback":null,"hidden":false,"url":"http://www.youtube.com/watch?v=R12_y2BhKbE","status":null,"review_mode":null,"shuffle_answers":null,"shuffle_questions":null,"assignment_response":null,"max_score":null,"pass_fail":null,"days_til_available":null,"use_google":null,"status_message":null,"scorm_score_can_only_improve":false,"get_filepicker_security_policy":{"signature":"d36458ae35e397b96656d7fba02a0788d900f2b260721412d6a6bcb44197c650","policy":"eyJjYWxsIjpbInJlYWQiLCJwaWNrIiwic3RhdCIsIndyaXRlIiwic3RvcmUiLCJjb252ZXJ0IiwicmVtb3ZlIl0sImhhbmRsZSI6IndhdGNoP3Y9UjEyX3kyQmhLYkUiLCJleHBpcnkiOjE2MDY0ODkzMTZ9"},"secure_url":null,"prerequisite_title":null,"available_in":false},"available":true,"iframe_compatible":null,"https_compatible":null,"get_info":null,"get_info_filepicker":null,"has_ungradings":false};
-	var questions = [
-		{
-			"id":1,
-			"question":"What is a good way to spot a phishing email?",
-			"resource_id":null,
-			"created_at":"2019-11-12T13:12:15.000-05:00",
-			"updated_at":"2019-11-12T13:12:35.000-05:00",
-			"question_type":"multiple-text",
-			"url":null,
-			"auto_next":null,
-			"show_correct":null,
-			"answer_type":"multiple",
-			"deleted_at":null,
-			"answer_immediately":null,
-			"time_limit":null,
-			"tile_id":726634,
-			"position":null,
-			"pre_conversion_url":null,
-			"uuid":null,
-			"quiz_answers":[
-				{"id":341201,"answer":"Reply to it","quiz_question_id":97387,"correct":false,"created_at":"2019-11-12T13:12:15.000-05:00","updated_at":"2019-11-12T13:12:38.000-05:00","answer_immediately":null,"time_limit":null,"deleted_at":null},
-				{"id":341202,"answer":"Click on the links in the email to see where they go","quiz_question_id":97387,"correct":false,"created_at":"2019-11-12T13:12:15.000-05:00","updated_at":"2019-11-12T13:12:57.000-05:00","answer_immediately":null,"time_limit":null,"deleted_at":null},
-				{"id":341203,"answer":"Check to see if the domain of the sender address matches the domain of the company's website","quiz_question_id":97387,"correct":true,"created_at":"2019-11-12T13:12:57.000-05:00","updated_at":"2019-11-12T13:13:23.000-05:00","answer_immediately":null,"time_limit":null,"deleted_at":null}
-			]
-		},{
-			"id":97389,
-			"question":"If someone from the bank emails you asking for your password should you send it to them?",
-			"resource_id":null,
-			"created_at":"2019-11-12T13:13:27.000-05:00",
-			"updated_at":"2019-11-12T13:14:40.000-05:00",
-			"question_type":"multiple-text",
-			"url":null,
-			"auto_next":null,
-			"show_correct":null,
-			"answer_type":"multiple",
-			"deleted_at":null,
-			"answer_immediately":null,
-			"time_limit":null,
-			"tile_id":726634,
-			"position":null,
-			"pre_conversion_url":null,
-			"uuid":null,
-			"quiz_answers":[
-				{"id":341206,"answer":"No","quiz_question_id":97389,"correct":true,"created_at":"2019-11-12T13:13:27.000-05:00","updated_at":"2019-11-12T13:14:45.000-05:00","answer_immediately":null,"time_limit":null,"deleted_at":null},
-				{"id":341207,"answer":"Yes","quiz_question_id":97389,"correct":false,"created_at":"2019-11-12T13:13:27.000-05:00","updated_at":"2019-11-12T13:14:44.000-05:00","answer_immediately":null,"time_limit":null,"deleted_at":null}
-			]
-		},{
-			"id":97394,
-			"question":"If someone sends you an email with an attachment that you do not expect, What should you do?",
-			"resource_id":null,
-			"created_at":"2019-11-12T13:18:27.000-05:00",
-			"updated_at":"2019-11-12T13:18:51.000-05:00",
-			"question_type":"multiple-text",
-			"url":null,
-			"auto_next":null,
-			"show_correct":null,
-			"answer_type":"multiple",
-			"deleted_at":null,
-			"answer_immediately":null,
-			"time_limit":null,
-			"tile_id":726634,
-			"position":null,
-			"pre_conversion_url":null,
-			"uuid":null,
-			"quiz_answers":[
-				{"id":341216,"answer":"Delete it","quiz_question_id":97394,"correct":false,"created_at":"2019-11-12T13:18:27.000-05:00","updated_at":"2019-11-12T13:18:54.000-05:00","answer_immediately":null,"time_limit":null,"deleted_at":null},
-				{"id":341217,"answer":"Open it","quiz_question_id":97394,"correct":false,"created_at":"2019-11-12T13:18:27.000-05:00","updated_at":"2019-11-12T13:19:02.000-05:00","answer_immediately":null,"time_limit":null,"deleted_at":null},
-				{"id":341218,"answer":"email the CTO and request that the attachment be examined.","quiz_question_id":97394,"correct":true,"created_at":"2019-11-12T13:19:02.000-05:00","updated_at":"2019-11-12T13:20:04.000-05:00","answer_immediately":null,"time_limit":null,"deleted_at":null}
-			]
-		}
-	];
+
 	var attempt = {"success":true};
 
 	var userCourseId = null;
