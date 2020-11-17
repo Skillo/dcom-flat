@@ -11,8 +11,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" type="text/css" media="all" href="Skillo_files/vendor.css">
         <link rel="stylesheet" type="text/css" media="all" href="Skillo_files/cygnus.css" id="main-style">
-        <link type="text/css" rel="stylesheet" href="Skillo_files/1.css">
-        <link href="https://myskillo.com/dist/img/favicon-d848bd7aca40721e9ca74936e6f889a0.png" rel="shortcut icon">
+		<link type="text/css" rel="stylesheet" href="Skillo_files/1.css">
+		<script src="jquery-2.1.4.js" type="text/javascript"></script>
+		<script src="handlebars.runtime-v4.0.5.js" type="text/javascript"></script>
+		<script src="Skillo_files/jst-7af102952ce153a25562f4a61214f5a0.js" type="text/javascript"></script>
+		<script src="Globals.js" type="text/javascript"></script>
+		<script src="QuizPlayer.js" type="text/javascript"></script>
+		<link href="https://myskillo.com/dist/img/favicon-d848bd7aca40721e9ca74936e6f889a0.png" rel="shortcut icon">
+		<script type="text/javascript">
+			var quizPlayer = new QuizPlayer();
+			document.addEventListener("DOMContentLoaded", function(event) { 
+				var quizContainer = document.querySelector('.quiz');
+				quizContainer.appendChild(quizPlayer.getPlayer());
+			});
+		</script>
     </head>
     <body class="admin instructs-courses can-observe-anyone can-create-course has-reports new-people-view-access no-discussion reader-view-container learning-course"><div aria-level="1" aria-label="page content" id="stage" role="main"><div id="reader-view-container"><main>
 	<header>
@@ -30,7 +42,7 @@
 				<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
 			</button>
 			<ul class="simple-dropdown-menu hidden right">
-				<li>Download</li>
+				<li class="hidden">Download</li>
 				<li class="hidden">Print</li>
 				<li class="hidden">Comments</li>
 				<li>Next Item</li>
@@ -39,18 +51,22 @@
 	</header>
 
 	<div id="readerview-content" class="sidebar-open">
-        <div><div class="content-layout single-column-wide" id="js-main-quiz-container">
-            <div class="quiz iframe-size-wrapper question-box tile-view-content"><div class="content-layout single-column-slim">
-            <section class="note">
-                <p>
-                    This is a quiz with 1 question(s).<br>
-                    There is no time limit, and if you exit the quiz you can pick up
-                    where you left off.
-                </p>
-                <button id="js-start-button" class="standard">Start Quiz</button>
-            </section>
-        </div></div>
-        </div></div>
+        <div>
+			<div class="content-layout single-column-wide" id="js-main-quiz-container">
+				<div class="quiz iframe-size-wrapper question-box tile-view-content">
+					<!-- <div class="content-layout single-column-slim">
+						<section class="note">
+							<p>
+								This is a quiz with 1 question(s).<br>
+								There is no time limit, and if you exit the quiz you can pick up
+								where you left off.
+							</p>
+							<button id="js-start-button" class="standard">Start Quiz</button>
+						</section>
+					</div> -->
+				</div>
+			</div>
+		</div>
     </div>
 	<div id="discussion" class="discussion-item"></div>
 </main></div></div><i class="fa fa-bars" id="nav-toggle"></i>
