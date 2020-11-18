@@ -2306,7 +2306,7 @@ nav#app-navigation.secondary {
     padding: 2px 5px;
     font-family: "Avenir Next LT W01 Demi", "Open Sans", "helvetica neue", sans-serif; }
     nav#app-navigation.secondary .count.new::before {
-      content: url("../img/yellowdot-814a115ef8615600da5346934690e894.png");
+      content: url("../img/yellowdot.png");
       float: left;
       margin-right: 5px;
       margin-top: .5px; }
@@ -2583,7 +2583,7 @@ body.instructor-mode #tile-description {
   display: block; }
 
 .card-style li.course .new-content {
-  background-image: url("../img/yellowdot-814a115ef8615600da5346934690e894.png");
+  background-image: url("../img/yellowdot.png");
   background-position: top 11px right 11px;
   background-repeat: no-repeat;
   background-size: 9px; }
@@ -2599,19 +2599,19 @@ body.instructor-mode #tile-description {
   border-radius: 5px 5px 0px 0px;
   background-size: cover; }
   .card-style li.course .thumbnail-area.red {
-    background-image: url("../img/courseview/red-f275c98cfa16e6e296e515b54f8b2996.svg"); }
+    background-image: url("../img/courseview/red.svg"); }
   .card-style li.course .thumbnail-area.orange {
-    background-image: url("../img/courseview/orange-3b60cb6d70cee5287c04ad48e23afbc7.svg"); }
+    background-image: url("../img/courseview/orange.svg"); }
   .card-style li.course .thumbnail-area.yellow {
-    background-image: url("../img/courseview/yellow-e774c0bd33ee1062c1fba3a2bb2606e7.svg"); }
+    background-image: url("../img/courseview/yellow.svg"); }
   .card-style li.course .thumbnail-area.green {
-    background-image: url("../img/courseview/green-64655fbff3905f58bb78902ea4459758.svg"); }
+    background-image: url("../img/courseview/green.svg"); }
   .card-style li.course .thumbnail-area.blue {
-    background-image: url("../img/courseview/blue-50e1db88ca1f1c585dbc539be9775dc2.svg"); }
+    background-image: url("../img/courseview/blue.svg"); }
   .card-style li.course .thumbnail-area.indigo {
-    background-image: url("../img/courseview/indigo-de77266026223730b053e804ca4268b7.svg"); }
+    background-image: url("../img/courseview/indigo.svg"); }
   .card-style li.course .thumbnail-area.violet {
-    background-image: url("../img/courseview/violet-e42e9dae1f9b3fdb5998a3a6a2713e06.svg"); }
+    background-image: url("../img/courseview/violet.svg"); }
 
 .card-style li.course .course-title {
   font-size: 16px;
@@ -2992,32 +2992,32 @@ html.touchevents .tile-item .manage-tile-button {
   .tile-item.webclip {
     background-image: url("../web.svg"); }
   .tile-item.video {
-    background-image: url("../img/brands/white-lines/video-6f20bdc8bf8b96bd9eff3e4dc2376259.svg"); }
+    background-image: url("../img/brands/white-lines/video.svg"); }
   .tile-item.sound {
-    background-image: url("../img/brands/white-lines/audio-818d8e7474b0a5f155fcca5868bc2a39.svg"); }
+    background-image: url("../img/brands/white-lines/audio.svg"); }
   .tile-item.document {
-    background-image: url("../img/brands/white-lines/document-7aa3cf59f29a4167048d1d578761af6e.svg"); }
+    background-image: url("../img/brands/white-lines/document.svg"); }
   .tile-item.emailmessage {
-    background-image: url("../img/brands/white-lines/document-7aa3cf59f29a4167048d1d578761af6e.svg"); }
+    background-image: url("../img/brands/white-lines/document.svg"); }
   .tile-item.image {
-    background-image: url("../img/brands/white-lines/image-15d0db407902849b07f7186fd05616bf.svg"); }
+    background-image: url("../img/brands/white-lines/image.svg"); }
   .tile-item.quiz {
     background-image: url("../quiz.svg"); }
   .tile-item.livetraining {
-    background-image: url("../img/brands/white-lines/event-a781b6bb23688349bb018ac2affb1752.svg"); }
+    background-image: url("../img/brands/white-lines/event.svg"); }
   .tile-item.scormclip {
-    background-image: url("../img/brands/white-lines/scorm-e644785ff34f082c37a92620c0b4c1c9.svg"); }
+    background-image: url("../img/brands/white-lines/scorm.svg"); }
   .tile-item.spark {
-    background-image: url("../img/brands/white-lines/spark-68987a61950a838e5aa66c9f8ecd2936.svg"); }
+    background-image: url("../img/brands/white-lines/spark.svg"); }
   .tile-item.audiospark {
-    background-image: url("../img/brands/white-lines/spark-68987a61950a838e5aa66c9f8ecd2936.svg"); }
+    background-image: url("../img/brands/white-lines/spark.svg"); }
   .tile-item.assignment {
-    background-image: url("../img/brands/white-lines/custom-7316cfd1463af05fc86b03117aa67c5f.svg"); }
+    background-image: url("../img/brands/white-lines/custom.svg"); }
   .tile-item .comment-count {
     position: absolute;
     bottom: 4px;
     left: 4px;
-    background: url("../img/comment-c09211b17cdf399d751d21e6d900a9fd.svg") no-repeat;
+    background: url("../img/comment.svg") no-repeat;
     display: block;
     z-index: 1;
     padding: 1px 12px 5px;
@@ -3550,7 +3550,7 @@ nav#topics a span {
 .name.ungraded {
   font-weight: bold; }
   .name.ungraded::after {
-    content: url("../img/yellowdot-814a115ef8615600da5346934690e894.png");
+    content: url("../img/yellowdot.png");
     margin-left: 5px; }
 
 header span.dsc::after, header span.asc::after {
@@ -4329,7 +4329,7 @@ label[for="reporting-status"], #student-tile-permissions label {
     .tile-nav a.ungraded {
       font-weight: bold; }
       .tile-nav a.ungraded::after {
-        content: url("../img/yellowdot-814a115ef8615600da5346934690e894.png");
+        content: url("../img/yellowdot.png");
         margin-left: 5px; }
 
 .tile-nav + #js-manager-body .content-layout {
