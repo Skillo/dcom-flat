@@ -36,6 +36,7 @@ body:not(.new-people-view-access) .hide-unless.new-people-view-access {
 body.learning-course .hide-unless.observing-course.only, body.editing-course .hide-unless.observing-course.only, body.owns-course .hide-unless.observing-course.only, body.admin .hide-unless.observing-course.only {
   display: none !important; }
 
+i.fa.fa-download {display: none !important}
 /*
 if you want an element to appear only sometimes, add the class "hide-unless" followed by the permission required.
 the element will only be shown if the user is...
