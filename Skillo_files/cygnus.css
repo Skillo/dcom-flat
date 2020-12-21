@@ -2,8 +2,6 @@
 @import url("https://fast.fonts.net/t/1.css?apiType=css&projectid=90f00524-6441-4ed7-9e86-5e00007e477f");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,600");
 @import url("https://fonts.googleapis.com/css?family=Fira+Mono");
-#sidebar-logo {
-  height: 175px !important; }
 
 html {
   box-sizing: border-box; }
@@ -166,7 +164,7 @@ h3 {
   font-size: 1rem; }
 
 p a {
-  color: #FF4849;
+  color: #3A6DFF;
   text-decoration: underline; }
 
 .show-linebreaks {
@@ -229,9 +227,9 @@ button, .button {
   button.standard, .popup#prompt-lightbox button:nth-child(2), .popup.prompt-lightbox button:nth-child(2), .button.standard {
     background: rgba(255, 72, 73, 0.8);
     color: white;
-    border-color: #FF4849; }
+    border-color: #3A6DFF; }
     button.standard:hover, .popup#prompt-lightbox button:hover:nth-child(2), .popup.prompt-lightbox button:hover:nth-child(2), button.standard:focus, .popup#prompt-lightbox button:focus:nth-child(2), .popup.prompt-lightbox button:focus:nth-child(2), .button.standard:hover, .button.standard:focus {
-      background: #FF4849; }
+      background: #3A6DFF; }
     button.standard[disabled], .popup#prompt-lightbox button[disabled]:nth-child(2), .popup.prompt-lightbox button[disabled]:nth-child(2), .button.standard[disabled] {
       color: #eee;
       background-color: #aaa;
@@ -270,7 +268,7 @@ button, .button {
 button .fa-exclamation-circle {
   width: 0;
   opacity: 0;
-  color: #FF4849;
+  color: #3A6DFF;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s; }
@@ -1689,7 +1687,7 @@ input:checked + .slider:before {
           opacity: 1; } }
 
 .learn-course-view .search-bar, .learning-course .search-bar {
-  background: #46568E; }
+  background: #00248B; }
   .learn-course-view .search-bar input, .learning-course .search-bar input {
     border: none;
     background: rgba(0, 0, 0, 0.3);
@@ -1841,11 +1839,11 @@ main > header {
     display: inline; } }
 
 body.learning-course main > header {
-  background: #46568E;
+  background: #00248B;
   color: white; }
 
 body.learning-course nav#secondary a.current {
-  background: #46568E; }
+  background: #00248B; }
 
 @media (min-width: 600px) {
   .monthly-insights::after {
@@ -2061,7 +2059,7 @@ main {
   main section .note, main .note .note {
     margin: 20px 0px; }
   main section.intro, main .intro.note {
-    background: #46568E;
+    background: #00248B;
     color: white;
     font-size: 1.3em; }
   main .one-line-explanation {
@@ -2200,7 +2198,7 @@ nav#app-navigation {
   background-image: url("../img/rightarrowlight.svg"); }
   .learning-course #next-item:hover {
     background-color: white;
-    color: #46568E;
+    color: #00248B;
     background-image: url("../img/rightarrowdark.svg"); }
 
 .learning-course #nav-toggle {
@@ -2227,7 +2225,7 @@ body.login-view {
   padding-left: 0; }
 
 nav#app-navigation {
-  background: #2F2F2F;
+  background: #0B1328;
   position: fixed;
   top: 0;
   left: 0;
@@ -2252,21 +2250,21 @@ nav#app-navigation {
     nav#app-navigation nav a span {
       vertical-align: 3px; }
     nav#app-navigation nav a.current {
-      background: #FF4849;
+      background: #3A6DFF;
       opacity: 1;
       font-family: "Avenir Next LT W01 Demi", "Open Sans", "helvetica neue", sans-serif; }
       nav#app-navigation nav a.current.courses.learn {
-        background: #46568E; }
+        background: #00248B; }
 
 #sidebar-logo {
-  background-image: url("../cygnus.svg");
+  background-image: url("../img/logos/dictionary.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 165px;
   height: 75px; }
 
 nav#app-navigation.secondary {
-  background: #2F2F2F;
+  background: #0B1328;
   color: white;
   display: block;
   position: fixed;
@@ -2325,10 +2323,10 @@ nav#app-navigation.secondary {
     nav#app-navigation.secondary nav a:hover {
       color: white; }
     nav#app-navigation.secondary nav a.highlight {
-      background: #FF4849; }
+      background: #3A6DFF; }
     nav#app-navigation.secondary nav a.current {
       color: white;
-      background: #FF4849;
+      background: #3A6DFF;
       font-family: "Avenir Next LT W01 Demi", "Open Sans", "helvetica neue", sans-serif; }
       nav#app-navigation.secondary nav a.current .new {
         background: none;
@@ -2350,7 +2348,7 @@ nav#app-navigation.secondary {
   color: white; }
 
 .learning-course #app-navigation.secondary nav a.current, .learn-course-view #app-navigation.secondary nav a.current {
-  background-color: #46568E; }
+  background-color: #00248B; }
 
 #readerview-content {
   animation: fadein .5s; }
@@ -2525,7 +2523,7 @@ body.instructor-mode #tile-description {
   from {
     background: #404041; }
   to {
-    background: #46568E; } }
+    background: #00248B; } }
 
 @keyframes fadein {
   from {
@@ -2657,7 +2655,7 @@ body.instructor-mode #tile-description {
     .card-style li.course .tags a:hover {
       color: #2F2F2F; }
       .card-style li.course .tags a:hover::before {
-        color: #FF4849; }
+        color: #3A6DFF; }
 
 .card-style li.course #js-star-button {
   background-image: url("../img/unstarred-6fe27a4bb80c02e2595c7b04a8711727.svg");
@@ -2729,7 +2727,7 @@ body.instructor-mode #tile-description {
   display: none; }
 
 .list-style li.course .tags a {
-  color: #46568E;
+  color: #00248B;
   font-style: italic; }
   .list-style li.course .tags a::before {
     content: '#'; }
@@ -2778,7 +2776,7 @@ body.instructor-mode #tile-description {
 
 #course-list.learn-view > header {
   color: white;
-  background: #46568E; }
+  background: #00248B; }
 
 body.course-view {
   background: #F7F7F7; }
@@ -2976,13 +2974,13 @@ html.touchevents .tile-item .manage-tile-button {
   box-shadow: .5px .5px 1px 1px #8e8e8e; }
   .tile-item:hover {
     box-shadow: .5px .5px 1px 1px #333;
-    background-color: #46568E; }
+    background-color: #00248B; }
     .tile-item:hover .tile-item-image {
       filter: brightness(1.2); }
   .tile-item h3 {
     font-size: .9rem; }
   .tile-item h3:after {
-    color: #FF4849;
+    color: #3A6DFF;
     font-style: italic;
     padding-left: 6px;
     font-weight: normal;
@@ -3047,7 +3045,7 @@ html.touchevents .tile-item .manage-tile-button {
     border: 1px solid #eee; }
   .tile-item.add-tile-item {
     background-image: url("../img/plus-925c6b6dd3834a90db134aa66b1d8417.svg");
-    background-color: #FF4849;
+    background-color: #3A6DFF;
     background-size: cover;
     opacity: .6;
     -webkit-transition: 0.25s;
@@ -3072,7 +3070,7 @@ html.touchevents .tile-item .manage-tile-button {
       .tile-item.add-tile-item:hover:after {
         transition: 1.3s;
         transition-delay: .6s;
-        color: #FF4849; }
+        color: #3A6DFF; }
   .tile-item .manage-tile-button {
     position: absolute;
     top: 8px;
@@ -3086,7 +3084,7 @@ html.touchevents .tile-item .manage-tile-button {
   .tile-item:hover .manage-tile-button, .tile-item.ungraded .manage-tile-button {
     opacity: 1; }
     .tile-item:hover .manage-tile-button:hover, .tile-item.ungraded .manage-tile-button:hover {
-      background-color: #FF4849; }
+      background-color: #3A6DFF; }
   .tile-item a {
     width: 100%;
     height: 100%;
@@ -3274,7 +3272,7 @@ body.learning-course #tile-view .header.topic + h1.learning-course {
   border-radius: 5px;
   padding: 8px 15px; }
   .add-user .group-item-container a {
-    color: #FF4849; }
+    color: #3A6DFF; }
 
 .add-user #view-roster-btn {
   position: absolute;
@@ -3646,7 +3644,7 @@ body.sidebar-open #stage > div > footer {
       opacity: 1;
       transition: .2s opacity .2s; }
       #stage > div > footer span:hover + .topics a:hover, #stage > div > footer .topics:hover a:hover {
-        color: #FF4849;
+        color: #3A6DFF;
         transition: .2s opacity .3s; }
   #stage > div > footer .dots span {
     right: 114px;
@@ -3673,7 +3671,7 @@ body.sidebar-open #stage > div > footer {
 
 #readerview-content {
   overflow-y: scroll;
-  background-color: #2f2f3c;
+  background-color: #2b2b2b;
   -webkit-transition: 0.25s;
   -moz-transition: 0.25s;
   transition: 0.25s;
@@ -3722,7 +3720,7 @@ ul#tile-number-list {
   text-align: center;
   width: 100%;
   overflow-y: hidden;
-  background: #2f2f3c; }
+  background: #2b2b2b; }
   .audio-size-wrapper #audio-player, .video-size-wrapper #audio-player {
     margin-top: 110px;
     margin-bottom: 1%; }
@@ -3858,7 +3856,7 @@ ul#tile-number-list {
     padding-top: 10px; } }
 
 #already-created {
-  color: #FF4849;
+  color: #3A6DFF;
   display: block;
   margin-bottom: 20px; }
 
@@ -4325,8 +4323,8 @@ label[for="reporting-status"], #student-tile-permissions label {
     margin-right: 20px;
     font-family: "Avenir Next LT W01 Demi", "Open Sans", "helvetica neue", sans-serif; }
     .tile-nav a.current {
-      color: #FF4849;
-      border-bottom: 3px solid #FF4849; }
+      color: #3A6DFF;
+      border-bottom: 3px solid #3A6DFF; }
     .tile-nav a.ungraded {
       font-weight: bold; }
       .tile-nav a.ungraded::after {
@@ -4455,7 +4453,7 @@ label[for="reporting-status"], #student-tile-permissions label {
 #quiz-result.popup {
   padding: 0; }
   #quiz-result.popup header {
-    background: #46568E;
+    background: #00248B;
     color: white; }
   #quiz-result.popup header, #quiz-result.popup footer {
     padding: 25px 45px; }
@@ -4554,7 +4552,7 @@ label[for="reporting-status"], #student-tile-permissions label {
     height: 20px;
     background: orange; }
   .discussion-post.me header, #response-contents-container.me header {
-    background: #46568E;
+    background: #00248B;
     color: white; }
     .discussion-post.me header .edit-response, #response-contents-container.me header .edit-response {
       border-color: white;
@@ -4580,7 +4578,7 @@ label[for="reporting-status"], #student-tile-permissions label {
     padding: 10px 35px;
     border-color: black; }
     .discussion-post button.download-file:hover, #response-contents-container button.download-file:hover {
-      background: #FF4849; }
+      background: #3A6DFF; }
   .discussion-post button.delete-contents, #response-contents-container button.delete-contents {
     position: absolute;
     top: -10px;
@@ -4679,7 +4677,7 @@ p.score, #readerview-content p.score {
   border-radius: 5px; }
 
 section.ruleset header, main .ruleset.note header {
-  background: #46568E;
+  background: #00248B;
   color: white; }
 
 section.ruleset.static select, main .ruleset.static.note select, section.ruleset.static .select2-selection, main .ruleset.static.note .select2-selection {
@@ -4775,7 +4773,7 @@ section.ruleset, main .ruleset.note {
     #courseinfo-view h1 .percent {
       color: #9c9c9c; }
   #courseinfo-view .course-info {
-    background: #46568E;
+    background: #00248B;
     color: white;
     padding: 40px 0px; }
     #courseinfo-view .course-info p {
@@ -4824,7 +4822,7 @@ section.ruleset, main .ruleset.note {
       display: table; }
     #courseinfo-view .tile a:hover {
       text-decoration: underline;
-      color: #46568E;
+      color: #00248B;
       font-family: "Avenir Next LT W01 Demi", "Open Sans", "helvetica neue", sans-serif; }
   #courseinfo-view .tile .title {
     padding: 10px;
@@ -4962,7 +4960,7 @@ label.long {
     width: 400px; }
     .popup.accept-terms a {
       display: block;
-      color: #FF4849;
+      color: #3A6DFF;
       font-weight: bold; }
       .popup.accept-terms a:hover {
         text-decoration: underline; }
@@ -5001,12 +4999,12 @@ label.long {
         -moz-transition: 0.25s;
         transition: 0.25s; }
       .popup.file-type button:hover {
-        color: #FF4849;
+        color: #3A6DFF;
         -webkit-transition: 0.25s;
         -moz-transition: 0.25s;
         transition: 0.25s; }
         .popup.file-type button:hover img {
-          background-color: #FF4849;
+          background-color: #3A6DFF;
           -webkit-transition: 0.25s;
           -moz-transition: 0.25s;
           transition: 0.25s; }
@@ -5256,7 +5254,7 @@ label#license {
   label#license input {
     display: inline; }
   label#license a {
-    color: #FF4849; }
+    color: #3A6DFF; }
     label#license a:hover {
       text-decoration: underline; }
 
