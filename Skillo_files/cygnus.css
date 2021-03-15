@@ -11,7 +11,7 @@ html {
 
 .hidden {
   display: none !important; }
-
+ 
 .ui-tooltip, .arrow {
   display: none !important; }
 
@@ -2151,13 +2151,15 @@ section.new, main .new.note {
 
 nav#app-navigation {
   /* transition: left .3s width .5s; */
-  transition: 0;
+  transition: .3s;
+  /* transition: left .3s; */
+  /* transition: 0; */
  }
   nav#app-navigation nav {
-    /* transition: .7s;  */
+    transition: .7s; 
   }
   nav#app-navigation.primary nav, nav#app-navigation.secondary nav {
-    /* animation: fadein .7s; */
+    animation: fadein .7s;
    }
 
 #back-button {
