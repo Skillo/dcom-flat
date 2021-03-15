@@ -2150,11 +2150,15 @@ section.new, main .new.note {
     opacity: 1; } }
 
 nav#app-navigation {
-  transition: left .3s width .5s; }
+  /* transition: left .3s width .5s; */
+  transition: 0;
+ }
   nav#app-navigation nav {
-    transition: .7s; }
+    /* transition: .7s;  */
+  }
   nav#app-navigation.primary nav, nav#app-navigation.secondary nav {
-    animation: fadein .7s; }
+    /* animation: fadein .7s; */
+   }
 
 #back-button {
   display: inline-block;
@@ -2234,7 +2238,7 @@ nav#app-navigation {
   color: white;
   z-index: 4;
   padding: 20px;
-  transition: .5s; }
+}
   nav#app-navigation nav a {
     display: block;
     padding: 3px 10px 0px;
