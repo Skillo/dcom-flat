@@ -13,7 +13,7 @@
 		<script>
 			document.addEventListener("DOMContentLoaded", function() {
 				function getCookieValue(key){
-					return document.cookie.split('; ').find(row => row.startsWith(key+'=')).split('=')[1];
+					return document.cookie.split('; ').find(function(row){if(row.startsWith('tile1=')){ return true;}}).split('=')[1];
 				}
 
 				var tileStatuses = document.querySelectorAll('.tile .status');
