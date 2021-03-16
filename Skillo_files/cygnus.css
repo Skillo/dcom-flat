@@ -11,7 +11,7 @@ html {
 
 .hidden {
   display: none !important; }
-
+ 
 .ui-tooltip, .arrow {
   display: none !important; }
 
@@ -1687,7 +1687,7 @@ input:checked + .slider:before {
           opacity: 1; } }
 
 .learn-course-view .search-bar, .learning-course .search-bar {
-  background: #00248B; }
+  background: #F23E22; }
   .learn-course-view .search-bar input, .learning-course .search-bar input {
     border: none;
     background: rgba(0, 0, 0, 0.3);
@@ -1839,11 +1839,11 @@ main > header {
     display: inline; } }
 
 body.learning-course main > header {
-  background: #00248B;
+  background: #F23E22;
   color: white; }
 
 body.learning-course nav#secondary a.current {
-  background: #00248B; }
+  background: #F23E22; }
 
 @media (min-width: 600px) {
   .monthly-insights::after {
@@ -2059,7 +2059,7 @@ main {
   main section .note, main .note .note {
     margin: 20px 0px; }
   main section.intro, main .intro.note {
-    background: #00248B;
+    background: #F23E22;
     color: white;
     font-size: 1.3em; }
   main .one-line-explanation {
@@ -2150,11 +2150,17 @@ section.new, main .new.note {
     opacity: 1; } }
 
 nav#app-navigation {
-  transition: left .3s width .5s; }
+  /* transition: left .3s width .5s; */
+  transition: .3s;
+  /* transition: left .3s; */
+  /* transition: 0; */
+ }
   nav#app-navigation nav {
-    transition: .7s; }
+    transition: .7s; 
+  }
   nav#app-navigation.primary nav, nav#app-navigation.secondary nav {
-    animation: fadein .7s; }
+    animation: fadein .7s;
+   }
 
 #back-button {
   display: inline-block;
@@ -2198,7 +2204,7 @@ nav#app-navigation {
   background-image: url("../img/rightarrowlight.svg"); }
   .learning-course #next-item:hover {
     background-color: white;
-    color: #00248B;
+    color: #F23E22;
     background-image: url("../img/rightarrowdark.svg"); }
 
 .learning-course #nav-toggle {
@@ -2234,7 +2240,7 @@ nav#app-navigation {
   color: white;
   z-index: 4;
   padding: 20px;
-  transition: .5s; }
+}
   nav#app-navigation nav a {
     display: block;
     padding: 3px 10px 0px;
@@ -2254,7 +2260,7 @@ nav#app-navigation {
       opacity: 1;
       font-family: "Avenir Next LT W01 Demi", "Open Sans", "helvetica neue", sans-serif; }
       nav#app-navigation nav a.current.courses.learn {
-        background: #00248B; }
+        background: #F23E22; }
 
 #sidebar-logo {
   background-image: url("../img/logos/dictionary.svg");
@@ -2348,7 +2354,7 @@ nav#app-navigation.secondary {
   color: white; }
 
 .learning-course #app-navigation.secondary nav a.current, .learn-course-view #app-navigation.secondary nav a.current {
-  background-color: #00248B; }
+  background-color: #F23E22; }
 
 #readerview-content {
   animation: fadein .5s; }
@@ -2523,7 +2529,7 @@ body.instructor-mode #tile-description {
   from {
     background: #404041; }
   to {
-    background: #00248B; } }
+    background: #F23E22; } }
 
 @keyframes fadein {
   from {
@@ -2727,7 +2733,7 @@ body.instructor-mode #tile-description {
   display: none; }
 
 .list-style li.course .tags a {
-  color: #00248B;
+  color: #F23E22;
   font-style: italic; }
   .list-style li.course .tags a::before {
     content: '#'; }
@@ -2776,7 +2782,7 @@ body.instructor-mode #tile-description {
 
 #course-list.learn-view > header {
   color: white;
-  background: #00248B; }
+  background: #F23E22; }
 
 body.course-view {
   background: #F7F7F7; }
@@ -2974,7 +2980,7 @@ html.touchevents .tile-item .manage-tile-button {
   box-shadow: .5px .5px 1px 1px #8e8e8e; }
   .tile-item:hover {
     box-shadow: .5px .5px 1px 1px #333;
-    background-color: #00248B; }
+    background-color: #F23E22; }
     .tile-item:hover .tile-item-image {
       filter: brightness(1.2); }
   .tile-item h3 {
@@ -4453,7 +4459,7 @@ label[for="reporting-status"], #student-tile-permissions label {
 #quiz-result.popup {
   padding: 0; }
   #quiz-result.popup header {
-    background: #00248B;
+    background: #F23E22;
     color: white; }
   #quiz-result.popup header, #quiz-result.popup footer {
     padding: 25px 45px; }
@@ -4552,7 +4558,7 @@ label[for="reporting-status"], #student-tile-permissions label {
     height: 20px;
     background: orange; }
   .discussion-post.me header, #response-contents-container.me header {
-    background: #00248B;
+    background: #F23E22;
     color: white; }
     .discussion-post.me header .edit-response, #response-contents-container.me header .edit-response {
       border-color: white;
@@ -4677,7 +4683,7 @@ p.score, #readerview-content p.score {
   border-radius: 5px; }
 
 section.ruleset header, main .ruleset.note header {
-  background: #00248B;
+  background: #F23E22;
   color: white; }
 
 section.ruleset.static select, main .ruleset.static.note select, section.ruleset.static .select2-selection, main .ruleset.static.note .select2-selection {
@@ -4773,7 +4779,7 @@ section.ruleset, main .ruleset.note {
     #courseinfo-view h1 .percent {
       color: #9c9c9c; }
   #courseinfo-view .course-info {
-    background: #00248B;
+    background: #F23E22;
     color: white;
     padding: 40px 0px; }
     #courseinfo-view .course-info p {
@@ -4822,7 +4828,7 @@ section.ruleset, main .ruleset.note {
       display: table; }
     #courseinfo-view .tile a:hover {
       text-decoration: underline;
-      color: #00248B;
+      color: #F23E22;
       font-family: "Avenir Next LT W01 Demi", "Open Sans", "helvetica neue", sans-serif; }
   #courseinfo-view .tile .title {
     padding: 10px;
