@@ -10,6 +10,20 @@
 		<link rel="stylesheet" type="text/css" media="all" href="Skillo_files/cygnus.css" id="main-style">
 		<link href="https://myskillo.com/dist/img/favicon-d848bd7aca40721e9ca74936e6f889a0.png" rel="shortcut icon">
 		<script src="sidebar.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				function getCookieValue(key){
+					return document.cookie.split('; ').find(row => row.startsWith(key+'=')).split('=')[1];
+				}
+
+				var tileStatuses = document.querySelectorAll('.tile .status');
+				tileStatuses.forEach(function(ts, index){
+					if(getCookieValue('tile'+index) === 'true'){
+						ts.classList.add('done')
+					}
+				});
+			}
+		</script>
 	</head>
 	<body class="admin instructs-courses can-observe-anyone can-create-course has-reports new-people-view-access no-discussion learning-course courseinfo-view"><div aria-level="1" aria-label="page content" id="stage" role="main"><div id="courseinfo-view"><div id="js-main-container" class="main-content-container">
 <main class="main-content-container">
@@ -29,14 +43,13 @@
 
 	<div class="course-progress">
 		<div class="content-layout single-column-slim">
-				<h1 id="js-course-status" class="course-status">		<span class="timestamp new">New</span>
-</h1>
+				<h1 id="js-course-status" class="course-status">		<span class="timestamp new">New</span></h1>
 
 			<div class="topic">
 				<h2><a href="index.html">Get Started in Skillo</a></h2>
 				<ol class="nopadding">
 					<li class="tile">
-						<div class="status done">
+						<div class="status">
 							<span class="score">
 								
 							</span>
@@ -54,7 +67,7 @@
 						</div>
 					</li>
 					<li class="tile">
-						<div class="status ">
+						<div class="status">
 							<span class="score">
 								
 							</span>
@@ -72,7 +85,7 @@
 						</div>
 					</li>
 					<li class="tile">
-						<div class="status ">
+						<div class="status">
 							<span class="score">
 								
 							</span>
@@ -90,7 +103,7 @@
 						</div>
 					</li>
 					<li class="tile">
-						<div class="status ">
+						<div class="status">
 							<span class="score">
 								
 							</span>
@@ -108,7 +121,7 @@
 						</div>
 					</li>
 					<li class="tile">
-						<div class="status ">
+						<div class="status">
 							<span class="score">
 								
 							</span>
@@ -126,7 +139,7 @@
 						</div>
 					</li>
 					<li class="tile">
-						<div class="status done">
+						<div class="status">
 							<span class="score">
 								
 							</span>
