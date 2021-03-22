@@ -5292,3 +5292,24 @@ label#license {
     display: none !important; } }
 
 /*# sourceMappingURL=cygnus.css.map */
+
+.signup-message {
+  font-size: 1.4rem;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  background: white;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.dictionary-signup.button {
+  color: white;
+  padding: 10px 40px;
+  background: #F0361F;
+  border-radius: 20px;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+
+}
