@@ -3330,6 +3330,9 @@ nav#topics a.current::before {
 nav#topics a.course-info::before {
   content: '\f05a'; }
 
+ nav#topics a.locked::before {
+   content: '\f023';
+ } 
 nav#topics a span {
   position: absolute;
   right: 10px; }
