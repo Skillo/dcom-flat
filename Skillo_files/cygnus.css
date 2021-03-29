@@ -2231,7 +2231,7 @@ body.login-view {
   padding-left: 0; }
 
 nav#app-navigation {
-  background: #0B1328;
+  background: #1a1a1a;
   position: fixed;
   top: 0;
   left: 0;
@@ -2270,7 +2270,7 @@ nav#app-navigation {
   height: 75px; }
 
 nav#app-navigation.secondary {
-  background: #0B1328;
+  background: #1a1a1a;
   color: white;
   display: block;
   position: fixed;
