@@ -5298,13 +5298,33 @@ label#license {
 
 .signup-message {
   font-size: 1.4rem;
-  width: 600px;
+  /* width: 600px; */
   margin: auto;
-  text-align: center;
+  /* text-align: center; */
   padding: 50px;
   background: white;
-  border-radius: 20px;
+  border-radius: 4px;
   margin-top: 100px;
+  border: 3px solid #F23E22;
+  display: flex;
+  justify-content: space-between;
+}
+.signup-message .form-area, .signup-message .value-prop {
+  /* width: 48%; */
+  /* display: inline-block; */
+  flex-basis: 45%;
+}
+.signup-message li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.signup-message li::before {
+  content: '\f00c';
+  font-family: FontAwesome;
+  color: #F23E22;
+  position: absolute;
+  left: -15px;
 }
 .dictionary-signup.button {
   color: white;
