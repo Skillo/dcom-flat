@@ -5372,3 +5372,6 @@ label#license {
 .reader-view-container h1 {
   margin-top: 12px;
 }
+.content-layout.dcom-form {
+  width: 1415px;
+}
