@@ -134,7 +134,7 @@ strong, th, .bold {
   font-family: "Avenir Next LT W01 Demi", "Open Sans", "helvetica neue", sans-serif; }
 
 body {
-  font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif;
+  font-family: Arial, sans-serif;
   color: #404041;
   font-size: 14px; }
 
@@ -290,7 +290,7 @@ button:hover .fa-exclamation-circle {
 input[type="email"]:not(.naked), input[type="number"]:not(.naked), input[type="password"]:not(.naked), input[type="search"]:not(.naked), input[type="tel"]:not(.naked), input[type="text"]:not(.naked), input[type="url"]:not(.naked), input[type="color"]:not(.naked), input[type="date"]:not(.naked), input[type="datetime"]:not(.naked), input[type="datetime-local"]:not(.naked), input[type="month"]:not(.naked), input[type="time"]:not(.naked), input[type="week"]:not(.naked), textarea:not(.naked), select:not(.naked) {
   border: 1px solid #ccc;
   border-radius: 2px;
-  font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif;
+  font-family: Arial, sans-serif;
   color: #404041;
   padding: 4px 7px;
   width: 100%;
@@ -1154,7 +1154,7 @@ section .table ul, main .note .table ul {
   height: auto;
   margin: 5px auto 0;
   font-size: 12px;
-  font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif;
+  font-family: Arial, sans-serif;
   -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
@@ -2005,7 +2005,7 @@ the bulk of this file details rules for those classes. Right now there is:
   clear: both; }
 
 .content-layout {
-  max-width: 1200px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -2164,7 +2164,7 @@ nav#app-navigation {
 
 #back-button {
   display: inline-block;
-  font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif;
+  font-family: Arial, sans-serif;
   margin-bottom: 25px;
   background-image: url("../img/uparrowlight.svg");
   background-repeat: no-repeat;
@@ -2181,7 +2181,7 @@ nav#app-navigation {
   background-position: right 9px center;
   background-image: url("../img/rightarrowdark.svg");
   background-repeat: no-repeat;
-  font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif;
+  font-family: Arial, sans-serif;
   padding-right: 38px; }
   #next-item:hover {
     background-image: url("../img/rightarrowlight.svg"); }
@@ -2319,7 +2319,7 @@ nav#app-navigation.secondary {
     padding: 5px 31px 5px 10px;
     margin-bottom: 2px;
     display: block;
-    font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif;
+    font-family: Arial, sans-serif;
     text-decoration: none;
     white-space: nowrap;
     overflow: hidden;
@@ -2485,7 +2485,7 @@ body.instructor-mode #tile-description {
         -moz-transition: 0.25s;
         transition: 0.25s; }
     #discussion ol li q {
-      font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif;
+      font-family: Arial, sans-serif;
       display: block; }
     #discussion ol li span, #discussion ol li time {
       font-size: .8em; }
@@ -3603,7 +3603,7 @@ span#name-text, span#title-text, span#progress-text, span#start-date-button, spa
   font-size: 1rem;
   color: white; }
   .other-tools button.text {
-    font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 14px;
     margin: 12px 15px; }
   .other-tools button.icon {
@@ -3915,7 +3915,7 @@ button.signup-arrow.standard, .popup#prompt-lightbox button.signup-arrow:nth-chi
     #login-view #viewport section p, #login-view #viewport main .note p, main #login-view #viewport .note p {
       font-size: 16px; }
   #login-view #viewport button {
-    font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif; }
+    font-family: Arial, sans-serif; }
   #login-view #viewport #email-entry-screen {
     left: 0;
     top: 0; }
@@ -4048,7 +4048,7 @@ button.signup-arrow.standard, .popup#prompt-lightbox button.signup-arrow:nth-chi
   font-family: FontAwesome; }
 
 .thead .completion-status.td {
-  font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif; }
+  font-family: Arial, sans-serif; }
 
 .completion-status {
   width: 25px; }
@@ -4599,7 +4599,7 @@ label[for="reporting-status"], #student-tile-permissions label {
     border: 2px solid white; }
 
 h2.score {
-  font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 2em; }
 
 .editing.discussion-post .media-container, .create.discussion-post .media-container, .assignment-edit-container .media-container {
@@ -4726,7 +4726,7 @@ section.ruleset button#add-filter, main .ruleset.note button#add-filter, section
   border-width: 2px;
   margin-top: 0;
   text-align: left;
-  font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif;
+  font-family: Arial, sans-serif;
   color: #cbcbcb;
   transition: .2s; }
   section.ruleset button#add-filter:hover, main .ruleset.note button#add-filter:hover, section.ruleset button#add-filter:focus:hover, main .ruleset.note button#add-filter:focus:hover {
@@ -5159,7 +5159,7 @@ label.long {
       margin: 20px 0px; }
     .popup.edit-live-training textarea {
       height: 112px;
-      font-family: "AvenirNextLTW01-Regular", "Open Sans", "helvetica neue", sans-serif; }
+      font-family: Arial, sans-serif; }
     .popup.edit-live-training input, .popup.edit-live-training textarea {
       width: 100%; }
   .popup.add-users-to-list, .popup.create-list {
@@ -5306,14 +5306,19 @@ label#license {
   border-radius: 4px;
   margin-top: 100px;
   border: 3px solid #F23E22;
-  display: flex;
-  justify-content: space-between;
 }
-.signup-message .form-area, .signup-message .value-prop {
-  /* width: 48%; */
-  /* display: inline-block; */
-  flex-basis: 45%;
+
+/* split signup area into two columns if there is enough room  */
+@media(min-width: 1140px) {
+  .signup-message {
+    display: flex;
+    justify-content: space-between;
+  }
+  .signup-message .form-area, .signup-message .value-prop {
+    flex-basis: 45%;
+  }
 }
+
 .signup-message li {
   position: relative;
   padding-left: 20px;
@@ -5326,6 +5331,16 @@ label#license {
   position: absolute;
   left: -15px;
 }
+.signup-message h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 0;
+}
+.signup-message h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
 .dictionary-signup.button {
   color: white;
   padding: 10px 40px;
@@ -5333,6 +5348,14 @@ label#license {
   border-radius: 20px;
   display: block;
   text-align: center;
-  margin-top: 50px;
-
+  /* margin-top: 50px; */
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+#dictionary-email-input {
+  padding: 12px;
+  font-size: 1.2em;
+  border-radius: 3px;
+  border: 2px solid #6b6b6b;
 }
