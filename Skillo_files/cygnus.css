@@ -1726,7 +1726,10 @@ main.learn-view > header select {
     background: transparent; }
 
 main > header {
-  background: white;
+  /* background: white; */
+  background: #F0361F;
+  color: white;
+  font-weight: bold;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   height: 63px;
   padding: 20px 20px;
@@ -5358,4 +5361,14 @@ label#license {
   font-size: 1.2em;
   border-radius: 3px;
   border: 2px solid #6b6b6b;
+}
+.dcom-white {
+  background: white !important;
+  color: black !important;
+  padding: 5px 15px !important;
+  border-radius: 20px !important;
+  border-color: transparent !important;
+}
+.reader-view-container h1 {
+  margin-top: 12px;
 }
