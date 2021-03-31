@@ -1812,22 +1812,25 @@ main > header {
     padding: 5px; } }
 
 @media screen and (max-width: 650px) {
-  .reader-view-container.learning-course .actions {
+  /* .reader-view-container.learning-course .actions {
     display: none; }
   .reader-view-container.learning-course .overflow-menu {
-    display: inline-block; } }
+    display: inline-block; }  */
+  }
 
 @media screen and (max-width: 650px) {
-  .reader-view-container.observing-course .actions {
+  /* .reader-view-container.observing-course .actions {
     display: none; }
   .reader-view-container.observing-course .overflow-menu {
-    display: inline-block; } }
+    display: inline-block; }  */
+  }
 
 @media screen and (max-width: 650px) {
-  .reader-view-container.editing-course .actions {
+  /* .reader-view-container.editing-course .actions {
     display: none; }
   .reader-view-container.editing-course .overflow-menu {
-    display: inline-block; } }
+    display: inline-block; }  */
+  }
 
 @media screen and (max-width: 1160px) {
   .instruct-view main > header .actions button .icon {
