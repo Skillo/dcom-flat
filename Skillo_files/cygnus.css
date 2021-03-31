@@ -5311,7 +5311,7 @@ label#license {
   padding: 50px;
   background: white;
   border-radius: 4px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   border: 3px solid #F23E22;
 }
 
@@ -5377,5 +5377,5 @@ label#license {
   margin-top: 12px;
 }
 .content-layout.dcom-form {
-  width: 1415px;
+  width: 1140px;
 }
