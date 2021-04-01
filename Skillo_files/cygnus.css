@@ -2157,12 +2157,12 @@ section.new, main .new.note {
 
 nav#app-navigation {
   /* transition: left .3s width .5s; */
-  transition: .3s;
+  /* transition: .3s; */
   /* transition: left .3s; */
   /* transition: 0; */
  }
   nav#app-navigation nav {
-    transition: .7s; 
+    /* transition: .7s;  */
   }
   nav#app-navigation.primary nav, nav#app-navigation.secondary nav {
     animation: fadein .7s;
@@ -3350,7 +3350,10 @@ nav#topics a span {
 
 #js-topic-title {
   display: inline-block;
-  margin-right: 10px; }
+  margin-right: 10px; 
+  font-weight: bold;
+  font-size: 1.5em;
+}
 
 @media (min-width: 1000px) {
   #js-topic-title {
