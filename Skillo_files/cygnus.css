@@ -3354,7 +3354,10 @@ nav#topics a span {
 
 @media (min-width: 1000px) {
   #js-topic-title {
-    font-size: 2.5em; }
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 40px; 
+  }
   i.edit-title {
     font-size: 1.5em;
     vertical-align: 3px;
@@ -5304,7 +5307,7 @@ label#license {
 /*# sourceMappingURL=cygnus.css.map */
 
 .signup-message {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   /* width: 600px; */
   margin: auto;
   /* text-align: center; */
@@ -5319,7 +5322,7 @@ label#license {
 @media(min-width: 1140px) {
   .signup-message {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .signup-message .form-area, .signup-message .value-prop {
     flex-basis: 45%;
@@ -5330,6 +5333,7 @@ label#license {
   position: relative;
   padding-left: 20px;
   margin-bottom: 20px;
+  font-size: 1.2rem;
 }
 .signup-message li::before {
   content: '\f00c';
@@ -5350,19 +5354,20 @@ label#license {
 }
 .dictionary-signup.button {
   color: white;
-  padding: 10px 40px;
+  padding: 15px 70px;
   background: #F0361F;
-  border-radius: 20px;
+  border-radius: 40px;
   display: block;
   text-align: center;
   /* margin-top: 50px; */
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 40px;
+  margin-top: 5px;
 }
 #dictionary-email-input {
-  padding: 12px;
-  font-size: 1.2em;
+  padding: 14px;
+  font-size: 1em;
   border-radius: 3px;
   border: 2px solid #6b6b6b;
 }
