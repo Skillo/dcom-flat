@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
     var form = document.getElementById('signup-form');
     var formData = new FormData(form);
 
-    form.onsubmit = function(){
-        this.preventDefault();
+    form.onsubmit = function(e){
+        e.preventDefault();
         var xhr = new XMLHttpRequest();
         xhr.open("POST", form.action, true);
 
