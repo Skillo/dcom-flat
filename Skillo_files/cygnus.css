@@ -5396,3 +5396,11 @@ h2.signup-header {
     font-size: 1.2rem; margin-top: 40px; padding-left: 30px; text-align: left;
   }
 }
+.dcom-form.thanks h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.dcom-form.thanks p {
+  font-size: 1.5em;
+}
