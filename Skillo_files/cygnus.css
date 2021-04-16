@@ -5412,6 +5412,14 @@ footer#legal {
   width: 100%;
   background: #eee;
 }
+@media (min-width: 910px) {
+  footer#legal {
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 250px);
+    right: 0;
+  }
+}
 footer#legal a {
   text-decoration: underline;
 }
