@@ -2285,7 +2285,7 @@ nav#app-navigation.secondary {
   height: 100vh;
   border-right: 1px;
   z-index: 5;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   padding: 15px; }
   nav#app-navigation.secondary h1 {
     overflow: hidden;
@@ -5334,7 +5334,7 @@ label#license {
 
 .signup-message li {
   position: relative;
-  padding-left: 20px;
+  padding-left: 30px;
   margin-bottom: 20px;
   font-size: 1.2rem;
 }
@@ -5343,7 +5343,7 @@ label#license {
   font-family: FontAwesome;
   color: #F23E22;
   position: absolute;
-  left: -15px;
+  left: 0px;
 }
 .signup-message h2 {
   font-weight: bold;
@@ -5403,4 +5403,15 @@ h2.signup-header {
 }
 .dcom-form.thanks p {
   font-size: 1.5em;
+}
+footer#legal {
+  text-align: center;
+  padding: 15px;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  background: #eee;
+}
+footer#legal a {
+  text-decoration: underline;
 }
