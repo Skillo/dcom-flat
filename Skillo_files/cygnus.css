@@ -1849,7 +1849,8 @@ body.learning-course main > header {
   color: white; }
 
 body.learning-course nav#secondary a.current {
-  background: #F23E22; }
+  /* background: #F23E22;  */
+}
 
 @media (min-width: 600px) {
   .monthly-insights::after {
@@ -2262,7 +2263,7 @@ nav#app-navigation {
     nav#app-navigation nav a span {
       vertical-align: 3px; }
     nav#app-navigation nav a.current {
-      background: #3A6DFF;
+      /* background: #3A6DFF; */
       opacity: 1;
       font-family: "Avenir Next LT W01 Demi", "Open Sans", "helvetica neue", sans-serif; }
       nav#app-navigation nav a.current.courses.learn {
@@ -2337,8 +2338,11 @@ nav#app-navigation.secondary {
     nav#app-navigation.secondary nav a.highlight {
       background: #3A6DFF; }
     nav#app-navigation.secondary nav a.current {
-      color: white;
-      background: #3A6DFF;
+      /* color: white; */
+      /* background: #3A6DFF; */
+      background: none;
+      /* color: #D14028; */
+      color: #ff644a;
       font-family: "Avenir Next LT W01 Demi", "Open Sans", "helvetica neue", sans-serif; }
       nav#app-navigation.secondary nav a.current .new {
         background: none;
@@ -2360,7 +2364,8 @@ nav#app-navigation.secondary {
   color: white; }
 
 .learning-course #app-navigation.secondary nav a.current, .learn-course-view #app-navigation.secondary nav a.current {
-  background-color: #F23E22; }
+  /* background-color: #F23E22;  */
+}
 
 #readerview-content {
   animation: fadein .5s; }
